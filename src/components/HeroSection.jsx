@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
     <div 
-        className='lg:h-[40em] md:h-[44em] h-[36em]'
+        className='lg:h-[40em] md:h-[40em] h-[36em]'
         style={{
             background: `linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.6)),url(${bgimage})`,
             backgroundSize:'cover'
@@ -27,8 +27,7 @@ const HeroSection = () => {
         </div>
     </div>
 
-    <div className='hr_line'/>
-    </>
+    <div className="w-full h-1 bg-gradient-to-r from-[#7c1818c7] to-[#184774]"></div></>
   )
 }
 

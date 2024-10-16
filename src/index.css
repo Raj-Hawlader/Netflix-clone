@@ -6,6 +6,3 @@ body{
     background: black;
 }
 
-.hr_line{
-    @apply bg-[#3f3c3c11]
-}
